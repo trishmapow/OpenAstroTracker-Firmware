@@ -31,16 +31,16 @@
 #endif
 // DRIVER_TYPE_TMC2209_UART requires 4 digital pins in Arduino pin numbering
 #ifndef RA_STEP_PIN
-  #define RA_STEP_PIN 19  // STEP
+  #define RA_STEP_PIN 13  // STEP
 #endif
 #ifndef RA_DIR_PIN
-  #define RA_DIR_PIN  21  // DIR
+  #define RA_DIR_PIN  12  // DIR
 #endif
 #ifndef RA_EN_PIN
-  #define RA_EN_PIN   22  // Enable
+  #define RA_EN_PIN   14  // Enable
 #endif
 #ifndef RA_DIAG_PIN
-  #define RA_DIAG_PIN 23  // only needed for autohome function
+  #define RA_DIAG_PIN 27  // only needed for autohome function
 #endif
 #ifndef RA_MS0_PIN
   #define RA_MS0_PIN  4
@@ -60,16 +60,16 @@
 #endif
 // DRIVER_TYPE_TMC2209_UART requires 4 digital pins in Arduino pin numbering
 #ifndef DEC_STEP_PIN
-  #define DEC_STEP_PIN 16  // STEP
+  #define DEC_STEP_PIN 26  // STEP
 #endif
 #ifndef DEC_DIR_PIN
-  #define DEC_DIR_PIN  17  // DIR
+  #define DEC_DIR_PIN  25  // DIR
 #endif
 #ifndef DEC_EN_PIN
-  #define DEC_EN_PIN   5  // Enable
+  #define DEC_EN_PIN   33 // Enable
 #endif
 #ifndef DEC_DIAG_PIN
-  #define DEC_DIAG_PIN 18  // only needed for autohome function
+  #define DEC_DIAG_PIN 32  // only needed for autohome function
 #endif
 #ifndef DEC_MS0_PIN
   #define DEC_MS0_PIN  15
