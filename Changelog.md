@@ -1,3 +1,13 @@
+**V1.8.74 - Updates**
+- Fixed bug in LX200 :XSD# command that prevented DEC steps from being stored.
+- Fixed logging error in Wifi code.
+
+**V1.8.73 - Updates**
+- Fixed network status return value
+- Added mode to network status
+- Coding style applied.
+- Updated Meade docs
+
 **V1.8.72 - Updates**
 - Factory reset now not only clears EEPROM, but also re-initializes everything.
 
